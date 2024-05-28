@@ -1,0 +1,118 @@
+.forecast-container {
+    width: 80%;
+    margin: 0 auto;
+    background: linear-gradient(135deg, #f9f9f9, #e9e9e9);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    padding: 40px;
+   
+  }
+  
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .accordion__item {
+    border: none;
+    margin-bottom: 15px;
+  }
+  .accordion__button::before {
+    content: '▼';
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  
+  .daily-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background: #ffffff; /* fallback */
+    background: linear-gradient(135deg, rgba(246, 170, 170, 0.9) 0%, rgba(255,255,255,0) 100%);
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    height: 20px;
+
+  }
+  
+  .daily-item:hover {
+    transform: translateY(-3px);
+    border-color: #ff6b6b;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .icon-small {
+    width: 60px;
+    height: 60px;
+    
+  }
+  
+  .day-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    flex: 2;
+  }
+  
+  .day {
+    font-size: 22px;
+    font-weight: 600;
+    color: #444;
+  }
+  
+  .description {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #777;
+  }
+  
+  .min-max {
+    font-size: 18px;
+    font-weight: 600;
+    color: #444;
+    flex: 1;
+    text-align: right;
+  }
+  .day, .description, .min-max {
+    font-family: 'Arial', sans-serif;
+  }
+  .details-panel {
+    background: #f7f7f7;
+    background: linear-gradient(135deg, #f7f7f7, #e1e1e1);
+    border-radius: 0 0 10px 10px;
+    border-color: #030303;
+    padding: 15px 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #91626281;
+}
+
+.details p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #030303;
+    flex: 1;
+    text-align: center;
+    border-color: #030303;
+}
+
+.details p:not(:last-child) {
+    border-right: 1px solid #ddd;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.daily-item:nth-child(even) {
+    background-color: #f9f9f9;
+}
