@@ -39,7 +39,7 @@ function Forecast({ data }) {
                     <p className='wind-speed-icon'><span></span>Wind Speed: {item.wind.speed} m/s</p>
                     <p className='pressure-icon'><span></span>Pressure: {item.main.pressure} hPa</p>
                 </div>
-                </AccordionItemPanel>
+            </AccordionItemPanel>
 
           </AccordionItem>
         ))}

@@ -3,3 +3,10 @@
   margin: 20px auto;
 
 }
+.search-container{
+  background-color: antiquewhite;
+  margin: 40px;
+}
+.weather-container{
+  margin-bottom: 30px;
+}

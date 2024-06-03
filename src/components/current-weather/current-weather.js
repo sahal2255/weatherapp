@@ -1,8 +1,5 @@
 import './current-weather.css';
 
-
-
-
 function CurrentWeather({ data }) {
   return (
     <div className='current-weather'>
