@@ -7,7 +7,6 @@ import {
   AccordionItemHeading,
   AccordionItemPanel
 } from 'react-accessible-accordion';
-import 'react-accessible-accordion/dist/fancy-example.css'; // Ensure you have the CSS file
 
 const WeekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 

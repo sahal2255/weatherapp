@@ -10,7 +10,7 @@
 
 # production
 /build
-/src/api.js/
+# /src/api.js/
 
 # misc
 .DS_Store

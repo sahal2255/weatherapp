@@ -1,12 +1,22 @@
-.App{
+.App {
   max-width: 1080px;
   margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  font-family: 'Arial', sans-serif;
+}
 
+.search-container {
+  background-color: #fbfbfb;
+  padding: 20px 70px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
-.search-container{
-  background-color: antiquewhite;
-  margin: 40px;
-}
-.weather-container{
+
+.weather-container {
+  padding-top: 30px;
   margin-bottom: 30px;
 }

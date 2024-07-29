@@ -4,8 +4,8 @@ function CurrentWeather({ data }) {
   return (
     <div className='current-weather'>
       <div className='top'>
-        <p className='city'>{data.city}</p>
-        <p className='weather-description'>{data.weather[0].description}</p>
+        <h2 className='city'>{data.city}</h2>
+        <h3 className='weather-description'>{data.weather[0].description}</h3>
       </div>
       <div className='middle'>
         <img src={`http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`} alt="weather" className='weather-icon' />
